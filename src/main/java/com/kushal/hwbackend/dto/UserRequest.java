@@ -1,8 +1,6 @@
 package com.kushal.hwbackend.dto;
 
-import org.springframework.stereotype.Component;
 
-@Component
 public class UserRequest {
     private String name;
     private String key;
