@@ -6,6 +6,7 @@ import com.kushal.hwbackend.util.AESUtil;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "*")
 public class EncryptionController {
 
 
